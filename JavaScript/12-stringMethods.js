@@ -6,7 +6,7 @@ String: -> collection of Characters or Sequence of Characters or array of Charac
         eg. name,email,password etc
  */
 
-//String Constant
+// //String Constant
 // var a = 'Hello World'
 // var b = "Ducat Education Noida"
 // var c = `
@@ -206,9 +206,9 @@ localeCompare() : compare two strings
 // console.log(b.localeCompare(b))
 
 //check whether a string is palindrom or not
-var a = prompt("Enter the String")
-// if (a === a.split("").reverse().join(""))
-if (!a.localeCompare(a.split("").reverse().join("")))
-        document.write(`"${a}" is Palindrome`)
-else
-        document.write(`"${a}" is not Palindrome`)
+// var a = prompt("Enter the String")
+// // if (a === a.split("").reverse().join(""))
+// if (!a.localeCompare(a.split("").reverse().join("")))
+//         document.write(`"${a}" is Palindrome`)
+// else
+//         document.write(`"${a}" is not Palindrome`)

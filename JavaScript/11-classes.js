@@ -324,23 +324,23 @@ Constructor:
 // var obj = new Child(10,20)
 // obj.display()
 
-class Test {
-  constructor(a, b) {
-      this.a = a
-      this.b = b
-  }
-}
-class Child extends Test {
-  constructor(a, b, c) {
-      super(a, b)
-      this.c = c
-  }
-  display() {
-      console.log(`${this.a} + ${this.b} + ${this.c} = ${this.a + this.b + this.c}`)
-  }
-}
-var obj = new Child(10, 20, 30)
-obj.display()
+// class Test {
+//   constructor(a, b) {
+//       this.a = a
+//       this.b = b
+//   }
+// }
+// class Child extends Test {
+//   constructor(a, b, c) {
+//       super(a, b)
+//       this.c = c
+//   }
+//   display() {
+//       console.log(`${this.a} + ${this.b} + ${this.c} = ${this.a + this.b + this.c}`)
+//   }
+// }
+// var obj = new Child(10, 20, 30)
+// obj.display()
 
 //mulilevel Inheritance: when a child class inherit another child class
 
